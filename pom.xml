@@ -39,20 +39,20 @@
 
     <properties>
         <character.encoding>UTF-8</character.encoding>
-        <java.level>11</java.level>
+        <java.level>21</java.level>
         <project.build.sourceEncoding>${character.encoding}</project.build.sourceEncoding>
         <maven-compiler-plugin.version>3.14.1</maven-compiler-plugin.version>
         <maven-jar-plugin.version>3.4.2</maven-jar-plugin.version>
         <maven-javadoc-plugin.version>3.7.0</maven-javadoc-plugin.version>
         <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
         <maven-release-plugin.version>3.1.0</maven-release-plugin.version>
-        <maven-gpg-plugin.version>3.2.4</maven-gpg-plugin.version>
+        <maven-gpg-plugin.version>3.2.8</maven-gpg-plugin.version>
         <slf4j.version>2.0.17</slf4j.version>
-        <spring-framework.version>7.0.2</spring-framework.version>
-        <javafx.version>17.0.11</javafx.version>
-        <spring-boot.version>4.0.1</spring-boot.version>
+        <spring-framework.version>7.0.5</spring-framework.version>
+        <javafx.version>21.0.10</javafx.version>
+        <spring-boot.version>4.0.5</spring-boot.version>
         <assertj-core.version>3.26.0</assertj-core.version>
-        <mockito.version>4.11.0</mockito.version>
+        <mockito.version>5.23.0</mockito.version>
     </properties>
 
     <modules>
@@ -83,7 +83,7 @@
             <dependency>
                 <groupId>org.junit</groupId>
                 <artifactId>junit-bom</artifactId>
-                <version>6.0.0</version>
+                <version>6.0.3</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -141,7 +141,7 @@
                 <plugin>
                     <groupId>org.owasp</groupId>
                     <artifactId>dependency-check-maven</artifactId>
-                    <version>12.1.9</version>
+                    <version>12.2.1</version>
                     <configuration>
                         <nvdApiServerId>nvd</nvdApiServerId>
                         <ossIndexServerId>ossindex</ossIndexServerId>
