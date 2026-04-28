@@ -48,10 +48,10 @@
         <maven-release-plugin.version>3.1.0</maven-release-plugin.version>
         <maven-gpg-plugin.version>3.2.8</maven-gpg-plugin.version>
         <slf4j.version>2.0.17</slf4j.version>
-        <spring-framework.version>7.0.5</spring-framework.version>
-        <javafx.version>21.0.10</javafx.version>
-        <spring-boot.version>4.0.5</spring-boot.version>
-        <assertj-core.version>3.26.0</assertj-core.version>
+        <spring-framework.version>7.0.7</spring-framework.version>
+        <javafx.version>21.0.11</javafx.version>
+        <spring-boot.version>4.0.6</spring-boot.version>
+        <assertj-core.version>3.27.7</assertj-core.version>
         <mockito.version>5.23.0</mockito.version>
     </properties>
 
